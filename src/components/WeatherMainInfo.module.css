@@ -1,12 +1,12 @@
 .mainInfo {
   background-color: white;
-  padding: 40px;
+  padding: 20px;
   border-radius: 5px;
   box-sizing: border-box;
 }
 
 .city {
-  font-size: 32px;
+  font-size: 25px;
   text-align: center;
   font-weight: bolder;
 }
@@ -23,10 +23,10 @@
 }
 
 .condition {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .current {
-  font-size: 38px;
+  font-size: 28px;
   font-weight: bold;
 }

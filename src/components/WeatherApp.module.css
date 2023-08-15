@@ -1,5 +1,6 @@
 .weather_container {
   width: 500px;
-  height: 500px;
-  margin: 0 50% 0 50%;
+  height: 300px;
+  margin: 150px auto;
+  margin-top: 30px;
 }

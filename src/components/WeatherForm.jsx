@@ -6,11 +6,7 @@ export default function WeatherForm({ onChangeCity }) {
   const [city, setCity] = useState("")
 
   function handleChange(e) {
-    const cityValue = e.target.value
-
-    if(cityValue !== "") {
-      setCity(cityValue)
-    }
+    setCity(e.target.value)
   }
 
   function handleSubmitForm(e) {
