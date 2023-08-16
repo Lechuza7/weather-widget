@@ -1,5 +1,6 @@
-.weatherContainer {
+.weather_container {
   width: 500px;
-  height: 500px;
+  height: 300px;
   margin: 150px auto;
+  margin-top: 60px;
 }
