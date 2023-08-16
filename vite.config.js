@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', 
   },
-  base: '/nombre-de-tu-proyecto/'
+  base: '/l7-weather-widget/'
 })
