@@ -20,9 +20,15 @@ export default function WeatherApp() {
     try {
       const cityInfo = await fetch(
         `${import.meta.env.VITE_APP_URL}&key=${import.meta.env.VITE_APP_KEY}&q=${city}`
-        );
+      );
+      
+      if (!cityInfo.ok) {
+        throw new Error(`Failed to fetch: ${cityInfo.status} ${cityInfo.statusText}`);
+      }
+
       const cityWeather = await cityInfo.json() 
       setWeather(cityWeather)
+      
     } catch (err) {
       console.error(err)
     }
